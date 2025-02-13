@@ -1,4 +1,4 @@
-# homework-2
+# pluto-puppies
 ## Final Project
 
 ### Project Summary (To Be Written by Sheryl)
