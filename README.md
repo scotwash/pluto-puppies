@@ -1,4 +1,5 @@
 # pluto-puppies
+
 ## Final Project
 
 ### Project Summary (To Be Written by Sheryl)
@@ -6,8 +7,8 @@
 Brief description of your what your project is about and why you chose that topic.
 
 ### Live Link
- https://scotwash.github.io/pluto-puppies/
- 
+
+https://scotwash.github.io/pluto-puppies/
 
 ### Key Takeaways (To Be Written by Ada)
 
@@ -22,10 +23,13 @@ List core webpages and briefly describe the page of them
 List any websites that you might reference to influence you styling choices
 
 ### Members & Responsibilities (To Be Written by Scotch)
+
 Our group members are Ada, Scotch, Garret, Sheryl, and Sunny.
 
-Ada is to write a 
+Ada is to write a
 
-CRYPTIDS 
+CRYPTIDS
 
 Scotch (Mud mermaids and Kelly-Hopinskins Monster)
+
+Ada (Not-Deer and Snow Wasset)
