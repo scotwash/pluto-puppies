@@ -33,3 +33,5 @@ CRYPTIDS
 Scotch (Mud mermaids and Kelly-Hopinskins Monster)
 
 Sunny (Jackalope and Snallygaster)
+
+Ada (Not-Deer and Snow Wasset)
