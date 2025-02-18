@@ -32,7 +32,7 @@ CRYPTIDS
 
 Scotch (Mud mermaids and Kelly-Hopinskins Monster)
 
-Sheryll: Jersey Devil
+Sheryll: (Jersey Devil)
 
 Sunny (Jackalope and Snallygaster)
 
