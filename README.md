@@ -31,7 +31,9 @@ Ada is to write a
 CRYPTIDS
 
 Scotch (Mud mermaids and Kelly-Hopinskins Monster)
+
 Sheryll: Jersey Devil
+
 Sunny (Jackalope and Snallygaster)
 
 Ada (Not-Deer and Snow Wasset)
