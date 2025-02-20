@@ -22,6 +22,22 @@ List core webpages and briefly describe the page of them
 
 List any websites that you might reference to influence you styling choices
 
+Websites for reference -
+
+https://mythopedia.com
+
+- Amazing Website Design (We only need to mimic a fraction of this tbh)
+
+https://www.theoi.com
+
+- Simplier but still good Website Design
+
+do NOT do this -
+
+https://paleothea.com
+
+- All AI, Horrid
+
 ### Members & Responsibilities (To Be Written by Scotch)
 
 Our group members are Ada, Scotch, Garret, Sheryl, and Sunny.
