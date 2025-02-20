@@ -4,7 +4,7 @@
 
 ### Project Summary (To Be Written by Sheryl)
 
-Brief description of your what your project is about and why you chose that topic.
+Our project will be centered around North American Cryptozoology. Choosing from either a selection or specific North Ameircan cryptid, our webpages will consist of an explantion and exploration of where these cryptids come frome, what they are,
 
 ### Live Link
 
