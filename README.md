@@ -40,9 +40,7 @@ https://paleothea.com
 
 ### Members & Responsibilities (To Be Written by Scotch)
 
-Our group members are Ada, Scotch, Garret, Sheryl, and Sunny.
-
-Ada is to write a
+Our group members are Ada, Scotch, Garret, Sheryl, and Sunny. Sunny will be researching websites for inspiration and reference. They will also be helping with the layout. Garret is listing all of our core webpages and briefly describing what their contents are. Sheryl will be turning in the assignment and writing the project summary. Ada will be writing why we are doing this and why we decided to write about cryptozoology. 
 
 CRYPTIDS
 
