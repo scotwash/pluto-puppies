@@ -14,9 +14,9 @@ https://scotwash.github.io/pluto-puppies/
 
 Understanding of why we are doing this project
 
-### Core Webpages (To Be Written by Garret)
+### Core Webpages (To Be Written by Scotch)
 
-List core webpages and briefly describe the page of them
+The first page we will have will be a home webpage that lists all of our creatures on a map. The home page will also consist of a short explanations of what cryptozoology and cryptids are. We will also be providing a short description of why we chose these creatures on everyone's page. Scotch's two pages will be about "Mud Mermaids" and "The Kelly-Hopinskuns Monster". Sheryll's two pages will be about the "The Jersey Devil". Sunny's two pages will consist of the "Jackalope" and "Snallygaster". And Ada's two pages consist of the "Not Deer" and "The Snow Wasset". 
 
 ### Design Choices (To Be Written by Sunny)
 
