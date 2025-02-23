@@ -39,18 +39,11 @@ https://paleothea.com
 - All AI, Horrid
 
 Color Pallet Choices/Referneces -
+(Did not include them all or the exact ones because scaling them is really janky on the md file)
 
 ![Color Pallet Reference One](https://i.etsystatic.com/6429581/r/il/ea4655/5135707909/il_570xN.5135707909_97po.jpg)
 
-![Color Pallet Reference Two](https://i.etsystatic.com/6429581/r/il/f2b302/5162065592/il_1080xN.5162065592_qpuh.jpg)
-
-![Color Pallet Reference Three](https://www.texasstandard.org/wp-content/uploads/2023/10/CryptidofTexas-1-240x300.png)
-
-<style type="text/css">
-    img {
-        width:200px
-    }
-</style>
+![Color Pallet Reference Two](https://www.texasstandard.org/wp-content/uploads/2023/10/CryptidofTexas-1-240x300.png)
 
 ### Members & Responsibilities (To Be Written by Scotch)
 
