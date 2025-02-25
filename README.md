@@ -4,7 +4,7 @@
 
 ### Project Summary (To Be Written by Sheryl)
 
-Our project will be centered around North American Cryptozoology. Choosing from either a selection or specific North Ameircan cryptid, our webpages will consist of an explantion and exploration of these cryptids. In detail we will explain where they come from, what they are, and why they may or may not be real.
+Our project will be centered around North American Cryptozoology. Choosing from either a selection or specific North Ameircan cryptid, our webpages will consist of an explantion and exploration of these cryptids. In detail we will explain where they come from, what they are, and why they may or may not be real. We chose this topic after a quick discussion, and mainly chose it because of scotch's pre-exisitng familiarity with the topic.
 
 ### Live Link
 
