@@ -12,7 +12,7 @@ https://scotwash.github.io/pluto-puppies/
 
 ### Key Takeaways (To Be Written by Ada)
 
-Understanding of why we are doing this project
+One of the key reasons to work on this project is to gain an understanding for attributes that make a functional, clean, and educational website. Along with that, this is a great and simple way to show our understanding of course material in a realworld setting. Not only does this project work on our problem-solving skills, but it allows us to be creative. Choosing our own topic and design creates a bridge between creative problem-solving and technical problem-solving. Even working with others can lead to a better understanding of the industry we're about to enter. We gain an understanding of the importance of communicating with others along with the motivation to do our part of the project.
 
 ### Core Webpages (To Be Written by Scotch)
 
