@@ -62,3 +62,24 @@ nav a {
     stroke-width: 2px;
     text-align: center;
 }
+
+/*style index heading*/
+/*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
+#mudmaid-heading {
+    padding-top: 20px;
+    font-family: monospace;
+    stroke-width: 2px;
+    text-align: center;
+}
+
+#intro-p {
+    padding-top: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#kelly {
+    padding-top: 20px;
+    font-family: monospace;
+    text-align: center;
+}
