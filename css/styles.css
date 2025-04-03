@@ -1,0 +1,64 @@
+
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+html,
+body {
+ height: 100%;
+background-color:  #EBE8D6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin-bottom: 16px;
+}
+
+/*edit the nav ul */
+/*change the background color of the nav
+change to horizontal nav
+change font size
+change font color
+change font padding
+add underlining*/
+
+nav ul {
+    background-color: #ABB5AA;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+nav a {
+   text-decoration: none;
+   color: #040F11;
+   font-size: 20px;
+   padding: 20px 10px;
+   font-family:monospace ;
+   
+}
+
+nav a {
+    text-decoration: 5px underline;
+    text-underline-offset: 3px;
+}
+
+/*style index heading*/
+/*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
+#indexHeading {
+
+    padding-top: 20px;
+    font-family: monospace;
+    stroke-width: 2px;
+    text-align: center;
+}
