@@ -22,7 +22,7 @@ p {
  margin-bottom: 16px;
 }
 
-/*edit the nav ul */
+/*edit the nav ul a */
 /*change the background color of the nav
 change to horizontal nav
 change font size
@@ -63,7 +63,7 @@ nav a {
     text-align: center;
 }
 
-/*style index heading*/
+/*style mudmaid page's heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
 #mudmaid-heading {
     padding-top: 20px;
@@ -72,13 +72,19 @@ nav a {
     text-align: center;
 }
 
+
+/*style intro paragraph on index page by referencing tags
+ move it to the top, change font to monospace, and align text*/
+
 #intro-p {
     padding-top: 20px;
     font-family: monospace;
     text-align: center;
 }
+/*style paragraph on kell hopinskin's page by referencing tags
+ move it to the top, change font to monospace, and align text*/
 
-#kelly {
+#kelly-heading {
     padding-top: 20px;
     font-family: monospace;
     text-align: center;
