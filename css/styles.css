@@ -1,15 +1,13 @@
-
- * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
- height: 100%;
-background-color:  #EBE8D6;
+  height: 100%;
+  background-color: #ebe8d6;
 }
 
 h1,
@@ -19,7 +17,7 @@ h4,
 h5,
 h6,
 p {
- margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 /*edit the nav ul a */
@@ -31,45 +29,43 @@ change font padding
 add underlining*/
 
 nav ul {
-    background-color: #ABB5AA;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    padding: 20px;
+  background-color: #abb5aa;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
 }
 
 nav a {
-   text-decoration: none;
-   color: #040F11;
-   font-size: 20px;
-   padding: 20px 10px;
-   font-family:monospace ;
-   
+  text-decoration: none;
+  color: #040f11;
+  font-size: 20px;
+  padding: 20px 10px;
+  font-family: monospace;
 }
 
 nav a {
-    text-decoration: 5px underline;
-    text-underline-offset: 3px;
+  text-decoration: 5px underline;
+  text-underline-offset: 3px;
 }
 
 /*style index heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
 #indexHeading {
-
-    padding-top: 20px;
-    font-family: monospace;
-    stroke-width: 2px;
-    text-align: center;
+  padding-top: 20px;
+  font-family: monospace;
+  stroke-width: 2px;
+  text-align: center;
 }
 
 /*style mudmaid page's heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
 #mudmaid-heading {
-    padding-top: 20px;
-    font-family: monospace;
-    stroke-width: 2px;
-    text-align: center;
+  padding-top: 20px;
+  font-family: monospace;
+  stroke-width: 2px;
+  text-align: center;
 }
 
 
@@ -77,15 +73,46 @@ nav a {
  move it to the top, change font to monospace, and align text*/
 
 #intro-p {
-    padding-top: 20px;
-    font-family: monospace;
-    text-align: center;
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
 }
 /*style paragraph on kell hopinskin's page by referencing tags
  move it to the top, change font to monospace, and align text*/
 
+<<<<<<< HEAD
 #kelly-heading {
     padding-top: 20px;
     font-family: monospace;
     text-align: center;
+=======
+#kelly {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#jackalope {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#jackalope-p {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#snally {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#snally-p {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
+>>>>>>> d1d498d4b2019125a0d43bb4593b9def10e1c7d7
 }
