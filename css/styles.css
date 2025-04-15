@@ -80,17 +80,42 @@ nav a {
 /*style paragraph on kell hopinskin's page by referencing tags
  move it to the top, change font to monospace, and align text*/
 
-<<<<<<< HEAD
 #kelly-heading {
     padding-top: 20px;
     font-family: monospace;
     text-align: center;
-=======
-#kelly {
-  padding-top: 20px;
+}
+
+#kelly-im {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+
+#kelly-intro {
   font-family: monospace;
   text-align: center;
+  padding-bottom: 100px;
+  text-decoration: underline;
+  font-size: smaller;
 }
+
+#kelly-im-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+
+#kelly-desc {
+  font-family: monospace;
+  text-align: center;
+  margin-top: 1em
+}
+
 
 #jackalope {
   padding-top: 20px;
