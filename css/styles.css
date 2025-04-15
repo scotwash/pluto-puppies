@@ -68,7 +68,6 @@ nav a {
   text-align: center;
 }
 
-
 /*style intro paragraph on index page by referencing tags
  move it to the top, change font to monospace, and align text*/
 
@@ -84,60 +83,45 @@ nav a {
     padding-top: 20px;
     font-family: monospace;
     text-align: center;
-}
-
-#kelly-im {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 250px;
-  width: 250px;
-}
-
-#kelly-intro {
-  font-family: monospace;
-  text-align: center;
-  padding-bottom: 100px;
-  text-decoration: underline;
-  font-size: smaller;
-}
-
-#kelly-im-2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 250px;
-  width: 250px;
-}
-
-#kelly-desc {
+=======
+#kelly {
+  padding-top: 20px;
   font-family: monospace;
   text-align: center;
   margin-top: 1em
 }
 
 
-#jackalope {
+#sunny-heading {
   padding-top: 20px;
   font-family: monospace;
   text-align: center;
 }
 
-#jackalope-p {
-  padding-top: 20px;
+.sunny-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-family: monospace;
+}
+
+.sunny-text p {
+  padding-right: 40px;
+}
+
+.sunny-text h2 {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+#sunny-image {
   text-align: center;
 }
 
-#snally {
-  padding-top: 20px;
-  font-family: monospace;
-  text-align: center;
-}
-
-#snally-p {
-  padding-top: 20px;
-  font-family: monospace;
-  text-align: center;
->>>>>>> d1d498d4b2019125a0d43bb4593b9def10e1c7d7
+#sunny-image img {
+  height: 250px;
+  border-radius: 10%;
+  padding-bottom: 10px;
 }
