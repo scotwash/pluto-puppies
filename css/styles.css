@@ -140,6 +140,7 @@ nav a {
   text-align: center;
 }
 .sheryll-text {
+  gap: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 40px;
