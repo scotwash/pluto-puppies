@@ -139,3 +139,10 @@ nav a {
   font-family: monospace;
   text-align: center;
 }
+.sheryll-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: monospace;
+}
