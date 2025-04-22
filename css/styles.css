@@ -38,16 +38,11 @@ nav ul {
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration: 1px underline;
   color: #040f11;
-  font-size: 20px;
+  font-size: 15px;
   padding: 20px 10px;
   font-family: monospace;
-}
-
-nav a {
-  text-decoration: 5px underline;
-  text-underline-offset: 3px;
 }
 
 /*style index heading*/
@@ -177,7 +172,6 @@ nav a {
   text-decoration: underline;
 }
 #Jersey-pic {
-  width: 400px;
-  height: 225px;
-  align-items: center;
+  height: 300px;
+  text-align: center;
 }
