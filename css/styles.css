@@ -87,7 +87,6 @@ nav a {
 #mudmaid-img {
   margin: auto;
   display: block;
- 
 }
 
 /*style intro paragraph on index page by referencing tags
@@ -180,4 +179,5 @@ nav a {
 #Jersey-pic {
   width: 225px;
   height: 400px;
+  align-items: center;
 }
