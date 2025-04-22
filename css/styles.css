@@ -105,7 +105,21 @@ nav a {
   margin: auto;
 }
 
+/* Style mudmaid.html */
+#mudmaid-heading {
+  font-family: monospace;
+  text-align: center;
+}
 
+#mudmaid-map {
+  margin: auto;
+  display: block;
+}
+
+#mudmaid-intro {
+  font-family: monospace;
+  text-align: center;
+}
 #sunny-heading {
   padding-top: 20px;
   font-family: monospace;
