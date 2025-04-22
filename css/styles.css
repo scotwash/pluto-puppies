@@ -101,10 +101,10 @@ nav a {
 /*style paragraph on kell hopinskin's page by referencing tags
  move it to the top, change font to monospace, and align text*/
 
- #kelly-heading {
+#kelly-heading {
   font-family: monospace;
   text-align: center;
- }
+}
 #kelly-intro {
   padding-top: 20px;
   font-family: monospace;
@@ -126,7 +126,6 @@ nav a {
   display: block;
   margin: auto;
 }
-
 
 #sunny-heading {
   padding-top: 20px;
@@ -177,4 +176,8 @@ nav a {
 #heading-jersey {
   text-align: center;
   text-decoration: underline;
+}
+#Jersey-pic {
+  width: 500px;
+  height: 300px;
 }
