@@ -172,13 +172,13 @@ nav a {
   text-decoration: underline;
 }
 
-#ada-heading {
+#a-heading {
   padding-top: 20px;
   font-family: monospace;
   text-align: center;
 }
 
-.ada-text {
+.a-text {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px 30px;
@@ -187,20 +187,20 @@ nav a {
   font-family: monospace;
 }
 
-.ada-text p {
+.a-text p {
   padding-right: 40px;
 }
 
-.ada-text h2 {
+.a-text h2 {
   text-decoration: underline;
   font-weight: 900;
 }
 
-#ada-image {
+#a-image {
   text-align: center;
 }
 
-#ada-image img {
+#a-image img {
   height: 250px;
   border-radius: 10%;
   padding-bottom: 10px;
