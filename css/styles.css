@@ -45,10 +45,6 @@ nav a {
   font-family: monospace;
 }
 
-nav a {
-  text-underline-offset: 3px;
-}
-
 /*style index heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
 #indexHeading {
