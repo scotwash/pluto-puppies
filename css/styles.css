@@ -171,7 +171,9 @@ nav a {
   text-align: center;
   text-decoration: underline;
 }
-#Jersey-pic {
+#Jersey-pic img {
   height: 300px;
+}
+#Jersey-pic {
   text-align: center;
 }
