@@ -68,6 +68,28 @@ nav a {
   text-align: center;
 }
 
+#mudmaid-map {
+  margin: auto;
+  display: block;
+  width: 350px;
+}
+
+#mudmaid-intro {
+  font-family: monospace;
+  text-align: center;
+}
+
+#mudmaid-p {
+  font-family: monospace;
+  text-align: center;
+}
+
+#mudmaid-img {
+  margin: auto;
+  display: block;
+ 
+}
+
 /*style intro paragraph on index page by referencing tags
  move it to the top, change font to monospace, and align text*/
 
