@@ -147,3 +147,7 @@ nav a {
   padding-right: 40px;
   font-family: monospace;
 }
+#heading-jersey {
+  text-align: center;
+  text-decoration: underline;
+}
