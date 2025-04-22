@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav a {
-  text-decoration: 1px underline;
+  text-decoration: 3px underline;
   color: #040f11;
   font-size: 15px;
   padding: 20px 10px;
@@ -171,7 +171,46 @@ nav a {
   text-align: center;
   text-decoration: underline;
 }
-#Jersey-pic {
+
+#a-heading {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.a-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: monospace;
+}
+
+.a-text p {
+  padding-right: 40px;
+}
+
+.a-text h2 {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+#a-image {
+  text-align: center;
+}
+
+#a-image img {
+  height: 250px;
+  border-radius: 10%;
+  padding-bottom: 10px;
+}
+
+#Jersey-pic img {
   height: 300px;
+  border-radius: 10%;
+  padding-bottom: 10px;
+}
+#Jersey-pic {
   text-align: center;
 }
