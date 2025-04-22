@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration: 1px underline;
   color: #040f11;
   font-size: 15px;
   padding: 20px 10px;
@@ -46,7 +46,6 @@ nav a {
 }
 
 nav a {
-  text-decoration: 1px underline;
   text-underline-offset: 3px;
 }
 
