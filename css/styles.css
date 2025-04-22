@@ -177,7 +177,6 @@ nav a {
   text-decoration: underline;
 }
 #Jersey-pic {
-  width: 400px;
   height: 225px;
-  align-items: center;
+  text-align: center;
 }
