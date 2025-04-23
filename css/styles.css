@@ -231,4 +231,6 @@ nav a {
 .contact-text {
   font-family: monospace;
   font-size: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
