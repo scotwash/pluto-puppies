@@ -62,26 +62,18 @@ nav a {
   stroke-width: 2px;
   text-align: center;
 }
-
-#mudmaid-map {
-  margin: auto;
-  display: block;
-  width: 350px;
-}
-
-#mudmaid-intro {
-  font-family: monospace;
-  text-align: center;
-}
-
-#mudmaid-p {
-  font-family: monospace;
-  text-align: center;
-}
-
 #mudmaid-img {
   margin: auto;
   display: block;
+}
+
+#mudmaid-p {
+  text-align: left;
+  font-family: monospace;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 30px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /*style intro paragraph on index page by referencing tags
@@ -94,13 +86,15 @@ nav a {
 }
 /*style paragraph on kell hopinskin's page by referencing tags
  move it to the top, change font to monospace, and align text*/
-#desciption-intro {
+#description-intro {
   font-weight: bold;
   text-decoration:underline;
+  font-family: monospace;
 }
-#desciption-intro-mudmaid {
+#description-intro-mudmaid {
   font-weight: bold;
   text-decoration:underline;
+  font-family: monospace;
 }
 #kelly-heading {
   font-family: monospace;
@@ -108,20 +102,14 @@ nav a {
 }
 #kelly-intro {
   padding-top: 20px;
-  font-family: monospace;
   text-align: left;
-}
-
-#kelly-desc {
-  padding-top: 20px;
   font-family: monospace;
-  text-align: right;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 30px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-#kelly-im {
-  display: ;
-  margin: auto;
-}
 
 #kelly-im-2 {
   display: block;
