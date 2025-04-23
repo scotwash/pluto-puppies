@@ -235,5 +235,5 @@ nav a {
   gap: 5px;
   display: flex;
   font-family: monospace;
-  text-align: center;
+  justify-content: center space-evenly;
 }
