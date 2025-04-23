@@ -230,5 +230,5 @@ nav a {
 }
 .contact-text {
   font-family: monospace;
-  display: flex;
+  font-size: 20px;
 }
