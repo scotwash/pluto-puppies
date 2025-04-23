@@ -56,12 +56,13 @@ nav a {
 /*style intro paragraph on index page by referencing tags
  move it to the top, change font to monospace, and align text*/
 
-#intro-p {
+ #intro-p {
   padding-top: 20px;
   font-family: monospace;
   text-align: center;
   font-size: 20px;
 }
+
 
 /*style mudmaid page's heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
@@ -88,8 +89,9 @@ nav a {
 /*style paragraph on kell hopinskin's page by referencing tags
  move it to the top, change font to monospace, and align text*/
 #description-intro {
+
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration:underline;
   font-family: monospace;
   padding-left: 50px;
   padding-right: 50px;
@@ -97,7 +99,7 @@ nav a {
 }
 #description-intro-mudmaid {
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration:underline;
   font-family: monospace;
   padding-left: 50px;
   padding-right: 50px;
@@ -116,6 +118,7 @@ nav a {
   padding-left: 100px;
   padding-right: 100px;
 }
+
 
 #kelly-im-2 {
   display: block;
@@ -233,5 +236,5 @@ nav a {
   display: flex;
   font-family: monospace;
   font-size: 20px;
-  justify-content: space-evenly;
+  justify-content: center ;
 }
