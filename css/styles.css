@@ -249,3 +249,8 @@ nav a {
 #Jersey-pic {
   text-align: center;
 }
+.contact-text {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
