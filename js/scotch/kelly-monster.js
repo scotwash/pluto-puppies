@@ -28,7 +28,7 @@ async function getHad() {
     }
 }
 
-async function addNewRat(e) {
+async function addNewCryptid(e) {
     e.preventDefault();
 
     const cryptidsTextValue= cryptidsTextRef.value;
@@ -38,7 +38,7 @@ async function addNewRat(e) {
     }
 
     else{
-        const newCryptids = await addDoc(cryptids, { state: ratsTextValue});
+        const newCryptids = await addDoc(cryptids, { state: cryptidsTextValue});
 
     console.log(newCryptids);
     getHad();
@@ -50,6 +50,6 @@ async function addNewRat(e) {
 }
 
 
-cryptidsFormReference.onsubmit = addNewRat;
+cryptidsFormReference.onsubmit = addNewCryptid;
 
 getHad();
