@@ -230,6 +230,8 @@ nav a {
 }
 .contact-text {
   display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 3;
   font-family: monospace;
   justify-content: center space-evenly;
 }
