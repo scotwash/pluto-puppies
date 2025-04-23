@@ -233,7 +233,7 @@ nav a {
 }
 .contact-text {
   padding-top: 20px;
-  display: flex;
+  display: grid;
   font-family: monospace;
   font-size: 20px;
   justify-content: center ;
