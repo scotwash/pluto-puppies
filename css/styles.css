@@ -234,5 +234,5 @@ nav a {
 .contact-text {
   display: flex;
   font-family: monospace;
-  justify-content: center space-evenly;
+  justify-content: center space-between;
 }
