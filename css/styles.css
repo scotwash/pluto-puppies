@@ -234,8 +234,6 @@ nav a {
 .contact-text {
   gap: 5px;
   display: flex;
-  padding-left: 40px;
-  padding-right: 40px;
   font-family: monospace;
   text-align: center;
 }
