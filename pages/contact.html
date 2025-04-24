@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="../css/styles.css" />
-</head>
-<nav>
+  </head>
+  <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -17,10 +17,51 @@
       <li><a href="notDeer.html">Not Deer</a></li>
       <li><a href="mudmaid.html">Mud Mermaid</a></li>
       <li><a href="kelly-monster.html">Kelly Hopinskin Monster</a></li>
-      
     </ul>
   </nav>
-<body>
-    
-</body>
+  <body>
+    <div class="container">
+      <div style="text-align: center">
+        <h2 class="contacth2">Contact Us</h2>
+        <p>Interested in finding out more?</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            class="imgcon"
+            src="https://i.pinimg.com/originals/f2/eb/a9/f2eba99fd1d0a28e63fe39e80ebe7a5f.jpg"
+            alt="Credit: LipsticKissPress"
+          />
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 170px"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/js/ada/contact.js"></script>
+  </body>
 </html>

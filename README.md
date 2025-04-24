@@ -4,8 +4,8 @@
 
 ### Project Summary (To Be Written by Sheryl)
 
-Our project will be centered around North American Cryptozoology. Choosing from either a selection or specific North Ameircan cryptid, our webpages will consist of an explantion and exploration of these cryptids. In detail we will explain where they come from, what they are, and why they may or may not be real. We chose this topic after a quick discussion, and mainly chose it because of scotch's pre-exisitng familiarity with the topic.
-
+Our project will be centered around North American Cryptozoology. Choosing from either a selection or specific North Ameircan cryptid, our webpages will consist of an explantion and exploration of these cryptids. In detail we will explain where they come from, what they are, and why they may or may not be real. We chose this topic after a quick discussion, and mainly chose it because of Scotch's pre-exisitng familiarity with the topic. Ada chose the Snow Wasset which lived by the Great Lakes and the Not Deer which was from Tennesee. I chose the Jersey Devil which is from New Jersey. Scotch did the 
+Kelly-Hopinskinville monster which comes from Kentucky and the Mud Mermaid that comes from Pennsylvania. 
 ### Live Link
 
 https://scotwash.github.io/pluto-puppies/
@@ -16,8 +16,7 @@ One of the key reasons to work on this project is to gain an understanding for a
 
 ### Core Webpages (To Be Written by Scotch)
 
-The first page we will have will be a home webpage that lists all of our creatures on a map. The home page will also consist of a short explanations of what cryptozoology and cryptids are. We will also be providing a short description of why we chose these creatures on everyone's page. Scotch's two pages will be about "Mud Mermaids" and "The Kelly-Hopinskuns Monster". Sheryll's two pages will be about the "The Jersey Devil". Sunny's two pages will consist of the "Jackalope" and "Snallygaster". And Ada's two pages consist of the "Not Deer" and "The Snow Wasset".
-
+We will have all of our members pages in the nav, talking about each individual cryptid that we decided to do. Then we will have a home page which talks about what cryptids are, with a small gallery of examples of cryptids. On this page there will also be a button that will link you to a website that explains about cryptids more in depth. Then there will be a button that will take you to a random page done by our members.
 ### Design Choices (To Be Written by Sunny)
 
 List any websites that you might reference to influence you styling choices
