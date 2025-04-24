@@ -18,7 +18,7 @@
         <li><a href="notDeer.html">Not Deer</a></li>
         <li><a href="mudmaid.html">Mud Mermaid</a></li>
         <li><a href="kelly-monster.html">Kelly Hopinskin Monster</a></li>
-        
+        <li><a href="beastofbusco.html">Beast of Busco</a></li>
       </ul>
     </nav>
     <h1 id="sunny-heading">The Snallygaster</h1>
@@ -29,6 +29,7 @@
         alt="Snallygaster"
       />
     </div>
+
     <section id="sunny-text">
       <div class="sunny-text">
         <h2>Description</h2>
@@ -66,11 +67,27 @@
         </p>
       </div>
     </section>
+
     <h2 id="sunny-heading">Snallygaster Image Gallery</h1>
+
       <section id="sunny-gallery">
         <div class="sunny-image-g" id="sunny-image-gallery">
         </div>
       </section>
-      <script src="../js/sunny/snallygaster.js"></script>
+      
+      <form action="#" id="new-sighting">
+        <div id="sunny-heading">
+          <h2 for="sighting-text">Have you recently seen this creature? Tell your tale below!</h2>
+          <input type="text" id="sighting-text" name="sighting-text" />
+        </div>
+  
+        <div>
+          <input id="sunny-border" type="submit" value="Submit Your Story" />
+        </div>
+      </form>
+  
+      <ul id="sightings"></ul>
+  
+      <script src="../js/sunny/snallygaster.js" type="module"></script>
   </body>
 </html>

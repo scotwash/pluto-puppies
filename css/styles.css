@@ -70,24 +70,8 @@ nav a {
 
 #members-introduction {
   font-family: monospace;
-  text-align: center;
+  
 }
-
-#gallery-id {
-  text-align: center;
-  font-family: monospace;
-  size: large;
-  text-decoration: underline;
-}
-
-
-/* style images on index page */
-
-#gallery-heading {
-  font-family: monospace;
-}
-
-
 /*style mudmaid page's heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
 #mudmaid-heading {
@@ -213,6 +197,48 @@ nav a {
   gap: 30px 30px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+#sightings {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  gap: 30px 30px;
+  padding: 30px;
+  font-family: monospace;
+}
+
+#sightings p {
+  border: 2px solid #abb5aa;
+  background-color: #abb5aa;
+  padding: 4px 4px 4px 4px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#sightings p:hover {
+  border: 2px solid black;
+  background-color: #abb5aa;
+  padding: 4px 4px 4px 4px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#sighting-text {
+  background-color: #abb5aa;
+  border-radius: 5px;
+}
+
+#sunny-border {
+  border: 2px solid #abb5aa;
+  border-radius: 5px;
+  color: #040f11;
+  font-family: monospace;
+}
+
+#sunny-border:hover {
+  border: 2px solid black;
 }
 
 #devil {
