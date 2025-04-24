@@ -27,3 +27,58 @@ for (let i = 0; i < imageItems.length; i++) {
 
     imageRef.appendChild(newArticle);
 }
+
+
+
+import { app } from "./sunnyapp.js";
+
+import {getFirestore, collection, getDocs, addDoc} from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js"
+
+const db = getFirestore(app);
+
+const sightingCollection = collection(db, "storyofsighting");
+
+const sightingRef = document.querySelector("#sightings");
+
+const sightingFormRef = document.querySelector("#new-sighting");
+
+const sightingTextRef = document.querySelector("#sighting-text");
+
+async function getSightings() {
+const sightingDocs = await getDocs(sightingCollection);
+console.log(sightingDocs.docs.length);
+
+sightingRef.innerHTML = ""
+for (let i = 0; i < sightingDocs.docs.length; i++) {
+    const currentSighting = sightingDocs.docs[i];
+    console.log(currentSighting.id, currentSighting.data());
+    const sightingData = currentSighting.data();
+    sightingRef.innerHTML += "<p>" + sightingData.Sightings + "</p>"
+    
+}
+}
+
+async function addNewSighting(e) {
+    e.preventDefault();
+    // prevents the default thing from happening.
+
+    const sightingTextValue = sightingTextRef.value;
+
+    if (sightingTextValue.trim() === "") {
+        alert("Entered a valid tale")
+    } 
+    else {
+
+        const newSighting = await addDoc(sightingCollection, { Sightings: sightingTextValue });
+
+        console.log(newSighting);
+
+        getSightings();
+
+        sightingFormRef.reset();
+    }
+}
+
+sightingFormRef.onsubmit = addNewSighting;
+
+getSightings();

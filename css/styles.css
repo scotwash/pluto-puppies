@@ -190,6 +190,48 @@ nav a {
   padding-right: 40px;
 }
 
+#sightings {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  gap: 30px 30px;
+  padding: 30px;
+  font-family: monospace;
+}
+
+#sightings p {
+  border: 2px solid #abb5aa;
+  background-color: #abb5aa;
+  padding: 4px 4px 4px 4px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#sightings p:hover {
+  border: 2px solid black;
+  background-color: #abb5aa;
+  padding: 4px 4px 4px 4px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#sighting-text {
+  background-color: #abb5aa;
+  border-radius: 5px;
+}
+
+#sunny-border {
+  border: 2px solid #abb5aa;
+  border-radius: 5px;
+  color: #040f11;
+  font-family: monospace;
+}
+
+#sunny-border:hover {
+  border: 2px solid black;
+}
+
 #devil {
   padding-top: 20px;
   font-family: monospace;
