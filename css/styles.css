@@ -159,6 +159,7 @@ nav a {
 .sunny-bold {
   padding-top: 20px;
   font-weight: bold;
+  font-family: monospace;
 }
 
 #sunny-gallery {
