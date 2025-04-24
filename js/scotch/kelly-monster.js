@@ -15,7 +15,7 @@ const cryptidRef = document.querySelector("#cryptids-id")
 const cryptidsFormReference = document.querySelector("#new-cryptids");
 const cryptidsTextRef = document.querySelector("#cryptid-text");
 
-async function getHad() {
+async function printSnowWasset() {
     const hasDocs = await getDocs(cryptids);
     cryptidRef.innerHTML = "";
 
@@ -52,4 +52,4 @@ async function addNewCryptid(e) {
 
 cryptidsFormReference.onsubmit = addNewCryptid;
 
-getHad();
+printSnowWasset();

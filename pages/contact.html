@@ -17,12 +17,13 @@
       <li><a href="notDeer.html">Not Deer</a></li>
       <li><a href="mudmaid.html">Mud Mermaid</a></li>
       <li><a href="kelly-monster.html">Kelly Hopinskin Monster</a></li>
+      <li><a href="beastofbusco.html">Beast of Busco</a></li>
     </ul>
   </nav>
   <body>
     <div class="container">
       <div style="text-align: center">
-        <h2>Contact Us</h2>
+        <h2 class="contacth2">Contact Us</h2>
         <p>Interested in finding out more?</p>
       </div>
       <div class="row">
@@ -35,19 +36,19 @@
         </div>
         <div class="column">
           <form action="/action_page.php">
-            <label for="fname">First Name</label>
+            <label for="fname">Your Name</label>
             <input
               type="text"
               id="fname"
               name="firstname"
               placeholder="Your name.."
             />
-            <label for="lname">Last Name</label>
+            <label for="lname">Email</label>
             <input
               type="text"
               id="lname"
               name="lastname"
-              placeholder="Your last name.."
+              placeholder="Your Email..."
             />
 
             <label for="subject">Subject</label>
@@ -63,4 +64,7 @@
       </div>
     </div>
   </body>
+  <script src="/js/ada/contact.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.6.1/firebase-database.js"></script>
 </html>
