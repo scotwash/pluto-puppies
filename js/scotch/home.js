@@ -8,18 +8,16 @@ import {
 } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
 
 
-// create a button
-const randomButton = document.createElement("button");
-randomButton.textContent = "Let's visit some cryptids!";
-randomButton.id = "random-button-id";
-randomButton.setAttribute('type','button');
-randomButton.addEventListener("click", function getRandomLinks(){})
+// edit button
+const randomCryptidButton = document.getElementById("random-button-two");
+randomCryptidButton.addEventListener("click", getRandomLinks);
 // retrieve data fromm database 
 const db = getFirestore(app);
 const cryptidLinksCollection = collection(db, "pluto-puppies-links");
 
 async function getRandomLinks() {
     const randomCryptidLinks = await getDocs(cryptidLinksCollection);
+    var randomWebsiteGen = randomCryptidLinks[Math.floor(Math.random() * randomCryptidLinks.length)];
 
     
 }
