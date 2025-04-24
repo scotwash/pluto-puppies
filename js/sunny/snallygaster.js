@@ -1,8 +1,8 @@
 //References to the Dom
-const menuRef = document.querySelector("#sunny-image-gallery");
+const imageRef = document.querySelector("#sunny-image-gallery");
 
 //Data
-const menuItems = [
+const imageItems = [
     {image: "https://images.squarespace-cdn.com/content/v1/60679617dd4c185fb8767c66/1620870100856-HJEGXHZF9VTJUXI9GMNN/public.jpeg", name: "Intro Snallygaster",},
     {image: "https://jasonrobertsonline.com/wp-content/uploads/2019/11/Snallygaster.jpg", name: "Artist Rendition of the Snallygaster",},
     {image: "https://assets.simpleviewinc.com/sv-frederick-county/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/frederickcountymd/Snallygaster_406FBAA4-02CD-9DD2-DAF33C8546C321AB_40940787-9f44-7570-09ac8e6f97153a80.jpg", name: "Artist Rendition of the Snallygaster",},
@@ -13,8 +13,8 @@ const menuItems = [
 
 menuRef.innerHTML = "";
 
-for (let i = 0; i < menuItems.length; i++) {
-    const item = menuItems[i];
+for (let i = 0; i < imageItems.length; i++) {
+    const item = imageItems[i];
     
     const newArticle = document.createElement("article")
     const newImg = document.createElement("img")
@@ -25,5 +25,5 @@ for (let i = 0; i < menuItems.length; i++) {
     newArticle.appendChild(newImg);
     newArticle.innerHTML += newText;
 
-    menuRef.appendChild(newArticle);
+    imageRef.appendChild(newArticle);
 }

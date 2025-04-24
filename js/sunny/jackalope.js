@@ -1,8 +1,8 @@
 //References to the Dom
-const menuRef = document.querySelector("#sunny-image-gallery");
+const imageRef = document.querySelector("#sunny-image-gallery");
 
 //Data
-const menuItems = [
+const imageItems = [
     {image: "https://res.cloudinary.com/review-journal/image/upload/f_auto,q_auto,c_scale,w_1200/v1646256034/jackaloperedo-copy.jpg", name: "Intro Jackalope",},
     {image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp3vqV5X1jokk640noOOR8mjeV-e4emClhUg&s", name: "Wall Mounted Jackalope",},
     {image: "https://i0.wp.com/www.hcn.org/wp-content/uploads/2022/04/jackalope-excerpt-2.jpg?resize=1200%2C800&quality=100&ssl=1", name: "Shope papilloma virus",},
@@ -13,8 +13,8 @@ const menuItems = [
 
 menuRef.innerHTML = "";
 
-for (let i = 0; i < menuItems.length; i++) {
-    const item = menuItems[i];
+for (let i = 0; i < imageItems.length; i++) {
+    const item = imageItems[i];
     
     const newArticle = document.createElement("article")
     const newImg = document.createElement("img")
@@ -25,5 +25,5 @@ for (let i = 0; i < menuItems.length; i++) {
     newArticle.appendChild(newImg);
     newArticle.innerHTML += newText;
 
-    menuRef.appendChild(newArticle);
+    imageRef.appendChild(newArticle);
 }
