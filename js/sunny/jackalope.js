@@ -20,7 +20,7 @@ for (let i = 0; i < imageItems.length; i++) {
     const newImg = document.createElement("img")
 
     newImg.src = item.image;
-    const newText = "<p class='sunny-bold'>" + item.name + "</p>"
+    const newText = "<h3 class='sunny-bold'>" + item.name + "</h3>"
 
     newArticle.appendChild(newImg);
     newArticle.innerHTML += newText;
