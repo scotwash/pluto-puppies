@@ -11,7 +11,7 @@ const imageItems = [
     {image: "https://staticdelivery.nexusmods.com/images/3024/92384258-1727403173.png", name: "Jackalope from Red Dead",},
 ];
 
-menuRef.innerHTML = "";
+imageRef.innerHTML = "";
 
 for (let i = 0; i < imageItems.length; i++) {
     const item = imageItems[i];

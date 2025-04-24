@@ -11,7 +11,7 @@ const imageItems = [
     {image: "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/07/snallygaster-2.jpeg", name: "Fallout 76 Snallygaster",},
 ];
 
-menuRef.innerHTML = "";
+imageRef.innerHTML = "";
 
 for (let i = 0; i < imageItems.length; i++) {
     const item = imageItems[i];
