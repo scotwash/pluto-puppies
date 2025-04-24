@@ -67,9 +67,10 @@ nav a {
   text-align: center;
   color: #040f11;
 }
-#ada-cited {
+
+#members-introduction {
   font-family: monospace;
-  text-align: center;
+  
 }
 /*style mudmaid page's heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/

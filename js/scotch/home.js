@@ -19,7 +19,7 @@ const cryptidRef = document.querySelector("#members-list");
 cryptidRef.id = "hi";
 // create imgs 
 
-//style cryptidref
+
 
 document.getElementById("hi").style.paddingLeft = "20px";
 document.getElementById("hi").style.fontFamily = "monospace";
@@ -38,7 +38,6 @@ async function getCryptidList() {
         const cryptidData = currentCryptid.data();
         cryptidRef.innerHTML += "<p>" + "Ada researched the "+ cryptidData.state + " and " + cryptidData.state2 + "!" + "</p>";
         // add image here 
-        cryptidRef.innerHTML += "<img> " + cryptidData.stateimgone + cryptidData.stateimgtwo + "</img>"
         cryptidRef.innerHTML += "<br> <p>" + "Scotch researched the " + cryptidData.state3 + " and " + cryptidData.state4 + "!" + "</p";
         cryptidRef.innerHTML += "<br> <p>" + "Sheryl researched the " + cryptidData.state5 + "!";
         cryptidRef.innerHTML += "<br> <p>" + "Sunny researched the " + cryptidData.state6 + " and " + cryptidData.state7 + "!" + "</p";
