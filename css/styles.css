@@ -259,7 +259,7 @@ input[type="text"],
 select,
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 20px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -312,4 +312,10 @@ input[type="submit"]:hover {
 label {
   font-family: monospace;
   font-size: larger;
+}
+
+.imgcon {
+  height: 500px;
+  width: 500px;
+  padding-left: 125px;
 }
