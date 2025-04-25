@@ -49,7 +49,10 @@ async function getCryptidList() {
     }
 }
 
+// make a button that leads to a cryptid website
+
+const cryptidButton = document.createElement("")
+
 
 
 getCryptidList();
-generateRandomGallery();

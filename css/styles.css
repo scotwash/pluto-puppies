@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -56,6 +57,12 @@ nav a {
 /*style intro paragraph on index page by referencing tags
  move it to the top, change font to monospace, and align text*/
 
+#image-size {
+  height: 100px;
+  border-radius: 25px;
+
+}
+
 #intro-p {
   padding-top: 20px;
   font-family: monospace;
@@ -70,6 +77,7 @@ nav a {
 
 #members-introduction {
   font-family: monospace;
+  text-decoration: underline;
   
 }
 /*style mudmaid page's heading*/
