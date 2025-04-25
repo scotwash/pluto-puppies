@@ -59,8 +59,23 @@ nav a {
 
 #image-size {
   height: 100px;
-  border-radius: 25px;
 
+
+}
+/* style buttons */
+#cryptid-button {
+  background-color: #abb5aa;
+  color: #040f11;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  margin: auto;
+  font-size: 16px;
+  font-family: monospace;
+  align-items: center;
+  border-radius: 30px;
+  width: 200px;
 }
 
 #intro-p {

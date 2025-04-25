@@ -49,21 +49,11 @@ async function getCryptidList() {
     }
 }
 
-// retrieve link from database
-const dbLink = getFirestore(app);
-const cryptidWebLink = collection(dbLink, "pluto-puppies-website");
-
-// reference button 
-
-const cryptidButtonRef = document.querySelector("#cryptid-button");
-// edit button
-cryptidButtonRef.fontFamily = "monospace";
-
-
-// link database to button
-async function linkCryptidWebsite() {
-    const hasWeb = await getDocs(cryptidWebLink);
-    cryptidButtonRef.innerHTML = "";
+// link other websites in database 
+async function randomLinks() {
+    const dbLinks = getFirestore(app);
+    const cryptidLinks = collection(dbLinks, "pluto-puppies-links");
     
 }
+
 getCryptidList();
