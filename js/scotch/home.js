@@ -9,7 +9,8 @@ import {
 
 
 
-
+// retrieve element by id
+let randomCryptidButtonRef = document.getElementById("random-cryptid-button");
 
 // retrieve data fromm database 
 const db = getFirestore(app);
@@ -49,8 +50,7 @@ async function getCryptidList() {
 }
 // make function to edit and edit button 
 function editRandomButton() {
-    // retrieve element by id
-    let randomCryptidButtonRef = document.getElementById("random-cryptid-button");
+    
     // link randomLinks to random button
     randomCryptidButtonRef.addEventListener("click", randomLinks);
 
@@ -70,10 +70,12 @@ for (let i = 0; i < hasDocsLinks.docs.length; i++) {
     let currentCryptidLinks = hasDocsLinks.docs[i];
     let currentCryptidLinksData = currentCryptidLinks.data();
     // variable for random equation to randomize array
-    let randomCryptidEquation = Math.floor(Math.random() * currentCryptidLinksData.length);
-    let randomCryptidLink = currentCryptidLinks[randomCryptidEquation];
+    let randomCryptidEquation = Math.floor(Math.random() * currentCryptidLinksData);
+    let randomCryptidLink = currentCryptidLinksData[randomCryptidEquation];
+    console.log(randomCryptidLink);
+
+    // change link
     
- console.log(currentCryptidLinksData);
 
 }
 
