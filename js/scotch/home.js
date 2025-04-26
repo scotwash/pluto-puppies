@@ -53,7 +53,8 @@ async function getCryptidList() {
 async function randomLinks() {
     const dbLinks = getFirestore(app);
     const cryptidLinks = collection(dbLinks, "pluto-puppies-links");
-    
+// reference random button section
+var randomButtonLinksRef 
 }
 
 getCryptidList();
