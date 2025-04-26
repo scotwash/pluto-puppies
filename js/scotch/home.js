@@ -48,13 +48,34 @@ async function getCryptidList() {
     
     }
 }
+// make function to edit and edit button 
+function editRandomButton() {
+    // retrieve element by id
+    let randomButtonLinksSectionRef = document.getElementById("random-links");
+    // create element
 
+}
 // link other websites in database 
 async function randomLinks() {
     const dbLinks = getFirestore(app);
     const cryptidLinks = collection(dbLinks, "pluto-puppies-links");
-// reference random button section
-var randomButtonLinksRef 
+
+// call getDocs()
+const hasDocsLinks = await getDocs(cryptidLinks);
+
+// create for loop to loop through the array
+for (let i = 0; i < hasDocsLinks.docs.length; i++) {
+    let currentCryptidLinks = hasDocsLinks.docs[i];
+    let currentCryptidLinksData = currentCryptidLinks.data();
+    // variable for random equation to randomize array
+    let randomCryptidEquation = Math.floor(Math.random() * currentCryptidLinksData.length);
+    let randomCryptidLink = currentCryptidLinks[randomCryptidEquation];
+
+    
+}
+
+
 }
 
 getCryptidList();
+editRandomButton();
