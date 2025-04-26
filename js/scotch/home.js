@@ -26,7 +26,6 @@ document.getElementById("hi").style.paddingLeft = "20px";
 document.getElementById("hi").style.fontFamily = "monospace";
 
 
-
 // prints members' cryptids
 async function getCryptidList() {
     const hasDocs = await getDocs(cryptids);
@@ -51,8 +50,9 @@ async function getCryptidList() {
 // make function to edit and edit button 
 function editRandomButton() {
     // retrieve element by id
-    let randomButtonLinksSectionRef = document.getElementById("random-links");
-    // create element
+    let randomCryptidButtonRef = document.getElementById("random-cryptid-element");
+    // link function to button
+    randomCryptidButtonRef.addEventListener("click", randomLinks);
 
 }
 // link other websites in database 

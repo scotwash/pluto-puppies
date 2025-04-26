@@ -74,9 +74,19 @@ nav a {
   font-size: 16px;
   font-family: monospace;
   align-items: center;
-  border-radius: 30px;
   width: 200px;
 }
+
+#random-cryptid-button {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  font-family: monospace;
+  background-color: #abb5aa;
+  text-align: center;
+  
+}
+
 
 #intro-p {
   padding-top: 20px;
