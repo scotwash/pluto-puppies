@@ -50,11 +50,13 @@ async function getCryptidList() {
 // make function to edit and edit button 
 function editRandomButton() {
     // retrieve element by id
-    let randomCryptidButtonRef = document.getElementById("random-cryptid-element");
-    // link function to button
+    let randomCryptidButtonRef = document.getElementById("random-cryptid-button");
+    // link randomLinks to random button
     randomCryptidButtonRef.addEventListener("click", randomLinks);
 
 }
+
+
 // link other websites in database 
 async function randomLinks() {
     const dbLinks = getFirestore(app);
@@ -70,9 +72,12 @@ for (let i = 0; i < hasDocsLinks.docs.length; i++) {
     // variable for random equation to randomize array
     let randomCryptidEquation = Math.floor(Math.random() * currentCryptidLinksData.length);
     let randomCryptidLink = currentCryptidLinks[randomCryptidEquation];
-
     
+ console.log(currentCryptidLinksData);
+
 }
+
+
 
 
 }
