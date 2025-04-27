@@ -1,42 +1,26 @@
 import { app } from "../add.js";
 
-function addTask() {
-    const taskInput = document.getElementById('taskInput');
-    const taskValue = taskInput.value.trim();
+import{
+    getFirestore, 
+    collection,
+    getDocs, 
+} from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
 
-    if (taskValue) {
-        taskList.push({ id: Date.now(), task: taskValue });
-        taskInput.value = '';
-        displayTasks();
-    }
-}
+const db = getFirestore(app);
 
-// Function to display tasks
-function displayTasks() {
-    const taskListElement = document.getElementById('taskList');
-    taskListElement.innerHTML = '';
+const contactInfo = collection(db, "pluto-puppy-contact");
 
-    taskList.forEach(task => {
-        const li = document.createElement('li');
-        li.innerHTML = `${task.task} <button onclick="editTask(${task.id})">Edit</button> <button onclick="deleteTask(${task.id})">Delete</button>`;
-        taskListElement.appendChild(li);
-    });
-}
+const wowzersRef = document.querySelector("#wowzers");
 
-// Function to edit a task
-function editTask(id) {
-    const task = taskList.find(task => task.id === id);
-    const newTaskValue = prompt('Edit task:', task.task);
+async function hehe() {
+   const heheDocs = await getDocs(contactInfo); 
+   wowzersRef.innerHTML = ""; 
+   for (let index = 0; index < heheDocs.docs.length; index++) {
 
-    if (newTaskValue) {
-        task.task = newTaskValue;
-        displayTasks();
-    }
-}
+    const currentContact = heheDocs.docs[index];
 
-// Function to delete a task
-function deleteTask(id) {
-    taskList = taskList.filter(task => task.id !== id);
-    displayTasks();
-}
+    const contactData = currentContact.data();
 
+    wowzersRef.innerHTML += "<p>" + contactData + "</p>"; 
+   }
+};

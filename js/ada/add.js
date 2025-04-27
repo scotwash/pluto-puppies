@@ -35,13 +35,4 @@ function save() {
 
 }
 
-function get() {
-  
-}
-function update() {
-  
-}
 
-function remove() {
-  
-}
