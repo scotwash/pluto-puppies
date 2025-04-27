@@ -23,7 +23,15 @@ function save() {
   var email = document.getElementById('lname').value
   var message = document.getElementById('subject').value
 
-  database.ref('users/' + username).set
+  database.ref('users/' + username).set({
+    name : fname,
+    email : lname,
+    message : subject,
+  })
+
+  alert('Saved')
+
+
 
 }
 
