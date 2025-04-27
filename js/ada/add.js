@@ -1,21 +1,39 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+var firebaseConfig = {
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyA_THT-wgU0Pr7eXlUmQfqJKlCJ_b7s3mM",
-  authDomain: "contactplutopuppies.firebaseapp.com",
-  projectId: "contactplutopuppies",
-  storageBucket: "contactplutopuppies.firebasestorage.app",
-  messagingSenderId: "937806378282",
-  appId: "1:937806378282:web:798ddcf089fc00460bda53",
-  measurementId: "G-5XLRJ6GBJK"
+  apiKey: "AIzaSyADre2-zbRAogQRbu3RDIq-XZVCIP9TMEg",
+
+  authDomain: "contact-pluto.firebaseapp.com",
+
+  projectId: "contact-pluto",
+
+  storageBucket: "contact-pluto.firebasestorage.app",
+
+  messagingSenderId: "210548571418",
+
+  appId: "1:210548571418:web:274485884dc98c6d81c0a3"
+
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+firebaseConfig.initializeApp(firebaseConfig);
+
+var database = firebase.database()
+
+function save() {
+  var name = document.getElementById('fname').value
+  var email = document.getElementById('lname').value
+  var message = document.getElementById('subject').value
+
+  database.ref('users/' + username).set
+
+}
+
+function get() {
+  
+}
+function update() {
+  
+}
+
+function remove() {
+  
+}
