@@ -70,4 +70,3 @@ function update() {
 function remove() {
   
 }
->>>>>>> d890919f899071582dd33dc52f10199bc9e0b3c0
