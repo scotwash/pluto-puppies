@@ -367,7 +367,6 @@ input[type="submit"]:hover {
   background-color: #ebe8d6;
   padding: 10px;
   font-family: monospace;
-
 }
 
 /* Create two columns that float next to eachother */
@@ -399,4 +398,12 @@ label {
 .contacth2 {
   font-size: 65px;
   font-family: monospace;
+}
+
+.snowWassetthead {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 25px;
 }
