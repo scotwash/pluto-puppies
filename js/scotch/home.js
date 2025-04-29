@@ -18,6 +18,8 @@ const cryptids = collection(db,"pluto-puppies");
 
 // ref members cited as a const
 const cryptidRef = document.querySelector("#members-list");
+//ref fun facts section
+const funfactsRef = document.querySelector("#fun-facrs");
 
 // create id for cryptid ref
 cryptidRef.id = "hi";
@@ -57,7 +59,7 @@ function editRandomButton() {
 }
 
 
-// link other websites in database 
+//post other facts in database 
 async function randomLinks() {
     const dbLinks = getFirestore(app);
     const cryptidLinks = collection(dbLinks, "pluto-puppies-links");
@@ -74,8 +76,13 @@ for (let i = 0; i < hasDocsLinks.docs.length; i++) {
     let randomCryptidLink = currentCryptidLinksData[randomCryptidEquation];
     console.log(randomCryptidLink);
 
-    // change link
+    funfactsRef.innerHTML += "<li>" + currentCryptidLinksData.links + "</li>";
+    // style section
+    funfactsRef.style.fontFamily = "monospace";
+    funfactsRef
+
     
+
 
 }
 
