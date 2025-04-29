@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
   // Import the functions you need from the SDKs you need
@@ -22,22 +22,8 @@
   // Initialize Firebase
   export const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-=======
-var firebaseConfig = {
 
-  apiKey: "AIzaSyADre2-zbRAogQRbu3RDIq-XZVCIP9TMEg",
 
-  authDomain: "contact-pluto.firebaseapp.com",
-
-  projectId: "contact-pluto",
-
-  storageBucket: "contact-pluto.firebasestorage.app",
-
-  messagingSenderId: "210548571418",
-
-  appId: "1:210548571418:web:274485884dc98c6d81c0a3"
-
-};
 
 firebaseConfig.initializeApp(firebaseConfig);
 
