@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -59,8 +58,6 @@ nav a {
 
 #image-size {
   height: 100px;
-
-
 }
 /* style buttons */
 #cryptid-button {
@@ -69,7 +66,7 @@ nav a {
   border: none;
   text-align: center;
   text-decoration: none;
-  display:block;
+  display: block;
   margin: auto;
   font-size: 16px;
   font-family: monospace;
@@ -84,13 +81,11 @@ nav a {
   font-family: monospace;
   background-color: #abb5aa;
   text-align: center;
-  
 }
 
 #fun-facrs {
   text-align: center;
 }
-
 
 #intro-p {
   padding-top: 20px;
@@ -107,7 +102,6 @@ nav a {
 #members-introduction {
   font-family: monospace;
   text-decoration: underline;
-  
 }
 /*style mudmaid page's heading*/
 /*move down so it is not super close to the nav, change font to monospace, and make the text bold*/
@@ -372,6 +366,7 @@ input[type="submit"]:hover {
   border-radius: 5px;
   background-color: #ebe8d6;
   padding: 10px;
+  font-family: monospace;
 }
 
 /* Create two columns that float next to eachother */
@@ -389,7 +384,6 @@ input[type="submit"]:hover {
   clear: both;
 }
 
-
 label {
   font-family: monospace;
   font-size: larger;
@@ -403,4 +397,5 @@ label {
 
 .contacth2 {
   font-size: 65px;
+  font-family: monospace;
 }
