@@ -8,7 +8,7 @@ Our project will be centered around North American Cryptozoology. Choosing from 
 Kelly-Hopinskinville monster which comes from Kentucky and the Mud Mermaid that comes from Pennsylvania. 
 ### Live Link
 
-https://scotwash.github.io/pluto-puppies/
+https://scotwash.github.io/pluto-puppies/pages/index.html
 
 ### Key Takeaways (To Be Written by Ada)
 
