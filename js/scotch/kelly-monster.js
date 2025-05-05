@@ -38,6 +38,7 @@ async function addNewCryptid(e) {
    cryptidsFormReference.reset();
     
     }
+    // fixed
     
     
 
